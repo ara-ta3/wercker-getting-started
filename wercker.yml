@@ -1,0 +1,7 @@
+box: tarata/centos6-with-php56-node
+build:
+    steps:
+        - script:
+            name: php version
+            code: |
+                php -v
